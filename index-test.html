@@ -4,76 +4,63 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles-test.css">
+  <!-- Font awesome ийн icon уудыг оруулж ирэх: -->
   <script src="https://kit.fontawesome.com/99842605aa.js" crossorigin="anonymous"></script>
-  <title>Reporter.mn</title>
-
+  <link rel="stylesheet" href="styles-test.css">
+  <title>Reporter</title>
 </head>
 <body>
   <nav>
-    <div class="nav-header">
-      <svg
-      xmlns="http://www.w3.org/2000/svg"
-      viewBox="0 0 1024 1024"
-      class="icon"
-      version="1.1"
-      >
-      <path
-        d="M761.2 942.8c-8.9 0-17.9-1.8-26.5-5.4l-220.7-93-220.7 93c-22.1 9.3-46.8 6.4-66.2-7.6-19.4-14.1-29.8-36.7-27.7-60.6l20.2-238.7L62.9 449.2c-15.7-18.1-20.6-42.5-13.2-65.3 7.4-22.8 25.7-39.6 49.1-45.1L332 284.3l123.9-205c12.4-20.5 34.1-32.7 58-32.7 24 0 45.7 12.2 58.1 32.7l123.9 205 233.2 54.5c23.3 5.5 41.7 22.3 49.1 45.1 7.4 22.8 2.5 47.2-13.2 65.3L808.4 630.4l20.2 238.7c2 23.9-8.3 46.5-27.7 60.6-11.8 8.6-25.7 13-39.7 13.1zM146.4 415.3L289 580.2c11.9 13.7 17.8 32 16.3 50.1l-18.4 217.2 200.8-84.6c16.8-7 35.9-7 52.6 0l200.9 84.6-18.4-217.2c-1.5-18.1 4.4-36.4 16.3-50.1l142.5-164.9-212.2-49.6c-17.7-4.1-33.2-15.4-42.6-31L514 148.3 401.2 334.8c-9.4 15.6-24.9 26.8-42.6 31l-212.2 49.5z m553.3-124.7h0.2-0.2z"
-        fill="#3688FF"
-      />
-    </svg>
-      <h1>Reporter.mn</h1>
-      <div class="nav-search-section">
-        <button><i class="fa-solid fa-magnifying-glass"></i></button>
-        <input type="search" name="search-bar" id="search-bar" placeholder="Хайлт хийх">
+    <div class="nav-container">
+      <div class="nav-bar-left">
+        <h2>REPORTER.MN</h2>
+        <div class="searchbar">
+          <button><i class="fa-solid fa-magnifying-glass"></i></button>
+          <input type="search" name="nav-searchbar" placeholder="Хайлт Хийх" id="">
+        </div>
       </div>
-    </div>
-    <div class="nav-anchors">
-      <a href="#">Кино</a>
-      <a href="#">Дуу</a>
-      <a href="#">Драма</a>
+      <div class="nav-bar-right">
+        <a href="#"><i class="fa-solid fa-video"></i></a>
+        <a href="#"><i class="fa-solid fa-music"></i></a>
+        <a href="#"><i class="fa-solid fa-masks-theater"></i></a>
+      </div>
     </div>
   </nav>
   <section class="header-content">
-    <div class="slideshow-container">
-
-      <!-- Full-width images with number and caption text -->
-      <div class="mySlides fade">
-        <img src="https://m.media-amazon.com/images/M/MV5BZDQ4Njg4YTctNGZkYi00NWU1LWI4OTYtNmNjOWMyMjI1NWYzXkEyXkFqcGdeQXVyMTA3MDk2NDg2._V1_.jpg">
-
-        <div class="slideshow-container-content">
-          <img class="header-content-img" src="https://m.media-amazon.com/images/M/MV5BZDQ4Njg4YTctNGZkYi00NWU1LWI4OTYtNmNjOWMyMjI1NWYzXkEyXkFqcGdeQXVyMTA3MDk2NDg2._V1_.jpg" alt="">
-          <div class="text">
-            <h1>The Whale</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit quibusdam iure praesentium ad alias obcaecati quidem, id soluta rem fugit officiis ut quae adipisci iusto necessitatibus culpa quod repudiandae quo!
-            Suscipit illum quis molestiae et placeat quas sapiente fugiat facere porro cumque beatae enim labore blanditiis aliquam asperiores, quibusdam dolore? Ipsum voluptatem doloribus eos iusto? Eum est delectus adipisci assumenda!
-            Obcaecati quam repellat perspiciatis tenetur, qui est? Quod, blanditiis expedita molestias aut incidunt sint nihil? Aliquid possimus dolorem repellendus sunt quisquam nesciunt ab, quia iusto, illum facilis perferendis dolor veniam?</p>
-            </div>
-          </div>
-      </div>
-  </section>
-  <article class="new-movies">
-    <h1> Одоо Дэлгэцнээ</h1>
-    <div class="movie-posters">
-      <div class="movie-posters-poster">
-        <img src="https://www.themoviedb.org/t/p/original/bGlTTHAhLJXIXb1a0zyBEPqtxV9.jpg" alt="">
-        <h3>Movie Name</h3>
-      </div>
-      <div class="movie-posters-poster">
-        <img src="https://i0.wp.com/bloody-disgusting.com/wp-content/uploads/2022/11/cocaine-bear-1.png?ssl=1" alt="">
-        <h3>Movie Name</h3>
-      </div>
-      <div class="movie-posters-poster">
-        <img src="https://m.media-amazon.com/images/M/MV5BYWY1ZDY4MmQtYjhiYS00N2QwLTk1NzgtOWI2YzUwZThjNDYwXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_.jpg" alt="">
-        <h3>Movie Name</h3>
-      </div>
-      <div class="movie-posters-poster">
-        <img src="https://www.themoviedb.org/t/p/original/bGlTTHAhLJXIXb1a0zyBEPqtxV9.jpg" alt="">
-        <h3>Movie Name</h3>
+    <div class="header container">
+      <img src="https://i0.wp.com/bloody-disgusting.com/wp-content/uploads/2023/03/dd6.jpg?ssl=1" class="header-image" alt="">
+      <div class="info">
+        <h1>THE WHALE</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus aliquid incidunt dignissimos sequi quisquam, ipsum commodi. Non voluptates asperiores veniam, exercitationem maxime vel laudantium ab ratione, blanditiis, repudiandae excepturi quas?
+        Mollitia velit cum cupiditate? Porro quos corrupti quod repellat voluptatem? Officia nam, iure ipsum doloremque voluptas optio id quos laboriosam quasi necessitatibus sit expedita! Asperiores animi ratione perspiciatis esse voluptatibus ... </p>
       </div>
     </div>
-
+  </section>
+  <section class="on-screen container">
+    <h1>Одоо Дэлгэцнээ</h1>
+    <div class="movies">
+      <figure><img src="https://www.themoviedb.org/t/p/original/tIOoin8nXWibN5zMJg32oAs63uS.jpg" alt="" class="movie"></figure>
+      <figure><img src="https://www.superherohype.com/wp-content/uploads/sites/4/2022/12/image002-1-e1670253167608.jpg" alt="" class="movie"></figure>
+      <figure><img src="https://cdn.cinematerial.com/p/297x/npyfi8vj/john-wick-chapter-4-swiss-movie-poster-md.jpg?v=1678582234" alt="" class="movie"></figure>
+      <figure><img src="https://media-prod.fangoria.com/images/scream-poster-2.width-800.jpg" alt="" class="movie"></figure>
+    </div>
+  </section>
+  <article class="container">
+    <h1>Мэдээ</h1>
+    <section class="news-section">
+      <div class="imp-news item-1"></div>
+      <div class="imp-news item-2"></div>
+      <div class="box-off item-3"></div>
+      <div class="critics item-4"></div>
+      <div class="news item-5"></div>
+      <div class="news item-6"></div>
+    </section>
   </article>
+  <main>
+    <section></section>
+    <section></section>
+    <section></section>
+  </main>
+  <footer></footer>
 </body>
 </html>
