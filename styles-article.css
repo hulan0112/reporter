@@ -1,0 +1,37 @@
+:root {
+  font-family: 'JetBrains Mono', monospace;
+  --padding-small: 10px;
+  --padding-medium: 20px;
+  --padding-large: 30px;
+  --spacing-xsmall: 25px;
+  --spacing-xxsmall: 15px;
+  --spacing-3xsmall: 10px;
+  --spacing-small: 50px;
+  --spacing-medium: 100px;
+  --spacing-large: 150px;
+  --article-img-height: 200px;
+  --container: 90%;
+  --main-color: #007EF0!important;
+}
+
+.container {
+  width: 70%;
+  max-width: 1000px;
+}
+
+article.container {
+  margin-top: var(--spacing-medium);
+  overflow: hidden;
+}
+
+article .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+article .article-img{
+  width: 100%;
+  object-fit: cover;
+}
